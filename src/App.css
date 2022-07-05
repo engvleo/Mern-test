@@ -1,0 +1,108 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lalezar', cursive;
+  background-color: rgb(216, 137, 18);
+}
+.input-sec{
+  height: 50vh;
+  width: 100%;
+  background-color: rgb(216, 137, 18);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.input-sec input{
+  margin: 10px;
+  padding-left: 10px;
+  width: 350px;
+  height: 70px;
+  border-right: 5px black solid;
+  border-bottom: 5px black solid;
+} 
+.input-sec button {
+  width: 150px;
+  height: 50px;
+  background-color: rgb(193, 18, 216);
+  border: none;
+  border-right: 5px black solid;
+  border-bottom: 5px black solid;
+  font-weight: bolder;
+}
+.input-sec button:hover{
+  border: none;
+  border-left: 3px black solid;
+  border-top: 3px black solid;
+  cursor: pointer;
+}
+.view-sec{
+  width: 100%;
+
+  background-color: rgb(216, 137, 18);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.view-sec ul{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+.view-sec li{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  width: 200px;
+  height: 30px;
+  background-color: rgb(18, 216, 140);
+  margin: 10px;
+  margin-left: -25px;
+  padding: 10px;
+  border-right: 5px black solid;
+  border-bottom: 5px black solid;
+}
+.view-sec li:hover{
+  border: none;
+  border-left: 3px black solid;
+  border-top: 3px black solid;
+  cursor: pointer;
+}
+.input-sec input:hover{
+  border: none;
+  border-left: 3px black solid;
+  border-top: 3px black solid;
+  cursor: pointer;
+}
+.input-sec input:focus{
+  border: none;
+  border-left: 3px black solid;
+  border-top: 3px black solid;
+  cursor: pointer;
+}
+.pop{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.pop button{
+  height: 60px;
+  background-color: rgb(216, 58, 18);
+  border: none;
+  border-right: 5px black solid;
+  border-bottom: 5px black solid;
+  width: 40px;
+  margin-right: 3px;
+}
+.pop button:hover{
+  border: none;
+  border-left: 4px black solid;
+  border-top: 4px black solid;
+}
+#update-btn{
+  width: 60px;
+  background-color:rgb(203, 216, 18) ;
+}
